@@ -47,7 +47,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-csharp-prep-Prep3",
-            "program": "${workspaceFolder}/csharp-prep/Prep3/bin/Debug/net8.0/Prep3.dll",
+            "program": "${workspaceFolder}/csharp-prep/Prep3/bin/Debug/net9.0/Prep3.dll",
             "args": [],
             "cwd": "${workspaceFolder}/csharp-prep/Prep3",
             "console": "integratedTerminal",
