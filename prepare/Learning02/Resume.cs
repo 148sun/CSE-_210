@@ -1,5 +1,6 @@
-public class Resume
+public class Resume //Declaring the the class type and class name
 {
+   // 
    public string _name;
    public List<Job> _jobs = new List<Job>();
 
