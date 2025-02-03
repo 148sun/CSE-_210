@@ -99,7 +99,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-prepare-Learning03",
-            "program": "${workspaceFolder}/prepare/Learning03/bin/Debug/net8.0/Learning03.dll",
+            "program": "${workspaceFolder}/prepare/Learning03/bin/Debug/net9.0/Learning03.dll",
             "args": [],
             "cwd": "${workspaceFolder}/prepare/Learning03",
             "console": "integratedTerminal",
