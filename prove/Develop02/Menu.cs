@@ -38,7 +38,7 @@ public class Menu
         Console.Write("Please input the filename you would like to load as a new journal: ");
         string filename = Console.ReadLine();
         string[] lines = System.IO.File.ReadAllLines(filename);
-        _journal._entryList.Clear();//something new
+        _journal._entryList.Clear();
         foreach (string line in lines)
         {
             string[] parts = line.Split("|");
