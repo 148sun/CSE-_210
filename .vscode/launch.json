@@ -112,7 +112,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-prepare-Learning04",
-            "program": "${workspaceFolder}/prepare/Learning04/bin/Debug/net8.0/Learning04.dll",
+            "program": "${workspaceFolder}/prepare/Learning04/bin/Debug/net9.0/Learning04.dll",
             "args": [],
             "cwd": "${workspaceFolder}/prepare/Learning04",
             "console": "integratedTerminal",

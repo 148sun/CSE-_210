@@ -6,27 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-    //    Word word1 = new Word();
-    //    Console.WriteLine(word1.SendWord());
-    //    Word word2 = new Word();
-    //    Console.WriteLine(word2.SendWord());
-    //    word2.ReceiveStatus(false);
-    //    Console.WriteLine(word2.SendWord());
-    //    Word word3 = new Word("scripture power!");
-    //    Console.WriteLine(word3.SendWord());
-    //    word3.ReceiveStatus(false);
-    //    Console.WriteLine(word3.SendWord());
-
-    //    Reference reference = new Reference();
-    //    reference.RevealReference();
-    //    Reference reference2 = new Reference("alma", 2, 2, 4);
-    //    reference2.RevealReference();
-    // Scripture scripture = new Scripture();
-    // scripture.SendScripture();
-    // scripture.RandomDisappear();
-    // scripture.SendScripture();
-    // scripture.RandomDisappear();
-    // scripture.SendScripture();
 
     Console.Write("Welcome to the Scripture Memorizer!\nWould you like to memorize 3 Nephi 20:42 (1) or your own scripture (2)? ");
     int _option = int.Parse(Console.ReadLine());
@@ -58,7 +37,6 @@ class Program
     }
     if (_option == 2)
     {
-        // Reference _reference;
         int _verse1 = 1;
         int _verse2 = 1;
         
