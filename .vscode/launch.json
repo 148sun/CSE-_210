@@ -164,7 +164,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-prove-Develop04",
-            "program": "${workspaceFolder}/prove/Develop04/bin/Debug/net8.0/Develop04.dll",
+            "program": "${workspaceFolder}/prove/Develop04/bin/Debug/net9.0/Develop04.dll",
             "args": [],
             "cwd": "${workspaceFolder}/prove/Develop04",
             "console": "integratedTerminal",
