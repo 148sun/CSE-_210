@@ -4,6 +4,31 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning05 World!");
+        Square square = new Square("green",2.2);
+        square.GetColor();
+        Console.WriteLine(square.GetArea());
+        Rectangle rectangle = new Rectangle("orange",2.2,5);
+        rectangle.GetColor();
+        Console.WriteLine(rectangle.GetArea());
+
+        Circle circle = new Circle("black",2.2);
+        circle.GetColor();
+        Console.WriteLine(circle.GetArea());
+
+        List<Shape> list = new List<Shape> {square, rectangle, circle};
+        Console.WriteLine("Polymorphism with a list!");
+        foreach (Shape shape in list)
+        {
+            Console.WriteLine(shape);
+            shape.GetColor();
+            Console.WriteLine(shape.GetArea());
+            
+        }
+
+
+        
+
+
+        
     }
 }
