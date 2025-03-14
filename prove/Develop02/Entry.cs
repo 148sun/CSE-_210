@@ -55,4 +55,5 @@ public class Entry
     {
         return $"{_dateTime}|{_myPrompt}|{_userInput}";
     }
+    
 }

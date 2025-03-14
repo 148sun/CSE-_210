@@ -25,6 +25,10 @@ class Program
             
         }
 
+        Shape s1 = new Circle("blue", 6);
+        Shape s2 = new Rectangle("red",100,2);
+        Shape s3 = new Square("white", 1);
+
 
         
 
