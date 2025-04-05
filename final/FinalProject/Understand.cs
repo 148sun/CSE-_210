@@ -1,6 +1,7 @@
 public class Understand : Learn
 {
     //Attributes
+    private Random rnd = new Random();
 
     private List<string> _promptList = new List<string>
     {"Create an example of",
@@ -18,7 +19,7 @@ public class Understand : Learn
     {
 
     }
-    public Random rnd = new Random();
+    
 
 
 

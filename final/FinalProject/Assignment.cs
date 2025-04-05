@@ -5,27 +5,21 @@ public class Assignment : Task
     //Attributes
     private string _dueDate;
     private string _className;
+    
 
     //Constructor
-    public Assignment(string name, string description, int time, bool status, string className, string dueDate) : base(name, description, time, status)
+    public Assignment(string name, string description, int time, string className, string dueDate) : base(name, description, time)
     {
         _className = className;
         _dueDate = dueDate;
+        
     }
 
     //Methods
-    public override void Display()
+    public override string Display()
     {
-                if (_status)
-        {
-            _checked = "X";
-        }
-        else
-        {
-            _checked = " ";
 
-        }
-        Console.Write($"{_name}({_className}) [{_checked}] ");
+        return $"\n{_name}({_className}), ({_time})";
         
     }
 

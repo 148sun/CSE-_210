@@ -25,10 +25,17 @@ abstract public class Learn
 
     public abstract void Practice(int frequency);
 
-    public void GetMaterial(List<string> concepts, List<string> explanation)
+    public void GetMaterial()
     {
-        _conceptList = concepts;
-        _explanationList = explanation; 
+        Console.Clear();
+        Console.Write("How many concepts would you like to study? "); int numberConcepts = int.Parse(Console.ReadLine());
+        for (int i = 0; i < numberConcepts; i++)
+        {
+            Console.Write("Concept: "); string concept = Console.ReadLine(); _conceptList.Add(concept);
+            Console.Write("Description: "); string description = Console.ReadLine(); _explanationList.Add(description);
+
+        }
+
     }
 
 

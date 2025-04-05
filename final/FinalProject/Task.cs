@@ -4,36 +4,30 @@ public class Task
     protected string _name;
     protected string _description;
     protected int _time;
-    protected bool _status;
-    protected string _checked;
+    
 
     //Constructor
-    public Task(string name, string description, int time, bool status)
+    public Task(string name, string description, int time)
     {
         _name = name;
         _description = description;
         _time = time;
-        _status = status;
+        
         
     }
     //Methods
-    public virtual void Display()
+    public virtual string Display()
     {
         
-        if (_status)
-        {
-            _checked = "X";
-        }
-        else
-        {
-            _checked = " ";
-
-        }
-        Console.Write($"{_name} [{_checked}] ");
+        return $"\n{_name} ({_time})";
     }
     public virtual void Description()
     {
-        Console.Write($"{_name}: ({_time}), {_description})");
+        Console.Write($"\n{_name}: ({_time}), {_description})");
+    }
+    public int SendTime()
+    {
+        return _time;
     }
     
 }
